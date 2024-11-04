@@ -59,3 +59,46 @@ td{
     margin-bottom: 15px;
     width: 100%;
 }
+
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+
+    .header-text {
+        font-size: 1.5em; /* Responsive header font size */
+        text-align: center; /* Center align header text */
+    }
+
+    .sub-text {
+        font-size: 1em; /* Responsive subtext font size */
+        text-align: center; /* Center align subtext */
+    }
+
+    table {
+        width: 100%; /* Ensure table uses full width */
+    }
+
+    .input-text {
+        width: 100%; /* Full width for input fields */
+        padding: 10px; /* Padding for better touch targets */
+        font-size: 0.9em; /* Smaller font size for inputs */
+    }
+
+    .login-btn {
+        width: 100%; /* Full width for buttons */
+        padding: 10px; /* Padding for buttons */
+        font-size: 0.9em; /* Smaller font size for buttons */
+    }
+
+    .label-td {
+        display: block; /* Stack labels and inputs */
+        margin-bottom: 10px; /* Space between label and input */
+    }
+
+    input[type="submit"] {
+        margin-top: 10px; /* Space above the submit button */
+    }
+}

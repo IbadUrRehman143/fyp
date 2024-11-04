@@ -117,8 +117,8 @@ CREATE TABLE IF NOT EXISTS `patient` (
 --
 
 INSERT INTO `patient` (`pid`, `pemail`, `pname`, `ppassword`, `paddress`, `pnic`, `pdob`, `ptel`) VALUES
-(1, 'patient@docnest.com', 'Test Patient', '123', 'Sri Lanka', '0000000000', '2000-01-01', '0120000000'),
-(2, 'aslam@gmail.com', 'Aslam Khan', '123', 'Sri Lanka', '0110000000', '2022-06-03', '0700000000');
+(1, 'patient@docnest.com', 'Test Patient', '123', 'Pakistan', '0000000000', '2000-01-01', '0120000000'),
+(2, 'aslam@gmail.com', 'Aslam Khan', '123', 'Pakistan', '0110000000', '2022-06-03', '0700000000');
 
 -- --------------------------------------------------------
 
